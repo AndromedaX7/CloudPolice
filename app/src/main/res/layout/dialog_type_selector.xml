@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mDialogList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/selector_nevagetion_bar_bg"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="查询行业单位统计数据" />
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/selector_nevagetion_bar_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="查询从业人员统计数据" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/selector_nevagetion_bar_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="查询静态车辆统计数据" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/selector_nevagetion_bar_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="查询开锁服务统计数据" />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/selector_nevagetion_bar_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="查询散装汽油统计数据" />
+
+        <RadioButton
+            android:id="@+id/rb5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/selector_nevagetion_bar_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="查询无证入住统计数据" />
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_nevagetion_bar_ring"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="请选择起始时间"
+            android:id="@+id/mTimeStarter"
+            android:textColor="@color/colorBlueTextBar" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:background="@color/colorBlueTextBar" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:id="@+id/mTimeEnder"
+            android:background="@drawable/shape_nevagetion_bar_ring"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="请选择结束时间"
+            android:textColor="@color/colorBlueTextBar" />
+    </LinearLayout>
+
+
+</LinearLayout>

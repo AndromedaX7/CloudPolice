@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3168e8</color>
+    <color name="colorPrimaryDark">#1e7cff</color>
+    <color name="colorAccent">#1e7cff</color>
+    <color name="greenCall">#4DD088</color>
+    <color name="colorLogin">#1e7cff</color>
+    <color name="colorBg">#F7F7F7</color>
+    <color name="colorTextColorLight">#3580ff</color>
+    <color name="colorTextColorDark">#2a2a2a</color>
+    <color name="colorTextColorHint">#8f8f8f</color>
+    <color name="colorOrange">#FDA01A</color>
+    <color name="colorExpandListbg">#F0EFF5</color>
+    <color name="colorBlueTextBar">#346AE6</color>
+    <color name="wt">#22666666</color>
+</resources>
